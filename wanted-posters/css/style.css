@@ -135,10 +135,9 @@ img {
 /* Footer */
 footer {
     padding: 1rem 1rem 1rem 1rem;
-    width: 2rem;
-    color: #333;
-    text-decoration: solid;
-    
+    border-top-width: 2rem
+    border-style: solid;
+    border-color: #333;
 }
 
 

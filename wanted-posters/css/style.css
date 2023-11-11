@@ -88,7 +88,7 @@ h4 {
 }
 
 h4 > span {
-    
+    padding: 0rem 0.5rem 0rem 0.5rem;
 }
 
 h5 {
@@ -117,20 +117,27 @@ p {
 
 /* Image & Figure */
 figure {
-    
+    margin: 2rem auto 2rem auto;
 }
 
 figcaption {
-    
+    padding-top: 0.5rem;
+    text-align: right;
 }
 
 img {
-    
+   width: 100%;
+   margin: 0rem auto 0rem auto;
+   max-width: 50rem;
 }
 
 
 /* Footer */
 footer {
+    padding: 1rem 1rem 1rem 1rem;
+    width: 2rem;
+    color: #333;
+    text-decoration: solid;
     
 }
 

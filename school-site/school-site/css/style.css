@@ -78,42 +78,59 @@ header, footer {
 
 
 /* Imported Typfaces */
-
+@font-face {
+    font-family: Cool font;
+    src: url();
+@font-face {
+    font-family: ;
+    src: url();
+}
+}
 
 
 
 
 /* Typography Styles */
 
-
-
-
+html {}
+h1 {}
+h2 {}
+h2 + p {} 
+p  {}
+li {}
+figcaption {}
 
 
 /* Link Styling */
+a {}
+a :link,
+a :visited {}
 
 
-
-
+a :focus,
+a:hover {}
 
 
 /* List Styling */
 
+ul  {}
+ol  {}
 
-
-
-
+.long-list a:hover{}
 
 /* Navigation Menu */
 
+nav   {}
+nav a {}
 
+nav a: focus,
+nav a: :hover {}
 
-
-
+nav a:active {}
 
 /* Footer Styles */
 
-
+footer {}
 
 
 

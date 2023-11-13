@@ -79,26 +79,77 @@ header, footer {
 
 /* Imported Typfaces */
 @font-face {
-    font-family: Cool font;
-    src: url();
+    font-family: Coolfont,Montserratt,sans-serif;
+    src: url(.../fonts/Montserratt-regular.ttf) format('truetype');
+    fallback: normal;
+    default: normal;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 0.13rem;
+   
 @font-face {
-    font-family: ;
-    src: url();
+    font-family:Coolfont,Josefinslab,sans-serif; 
+    src: url(.../fonts/Josefinslab-regular.ttf) format('truetype');
+    font-weight:normal
+    font-style: normal
 }
 }
 
+/*Applying the font in a style rule that targets a level 1 heading */
 
+h1 {
+    font-family: Coolfont, Josefinslab,serif ;
+    font-size: 3.75rem ;
+    margin: 1.13rem ;
+    text-align: center ; 
+}
 
+h2{
+    font-family: Coolfont,Josefinslab,serif ;
+    font-size: 1.5rem ;
+}
 
 /* Typography Styles */
 
-html {}
-h1 {}
-h2 {}
-h2 + p {} 
-p  {}
-li {}
-figcaption {}
+html {
+    font-family:Coolfont, Montserratt,sans-serif;
+    letter-spacing: 0.13rem;
+
+}
+
+h1 {
+    font-family: Coolfont, Josefinslab,serif ;
+    font-size: 3.75rem ;
+    margin: 1.13rem ;
+    text-align: center ; 
+}
+
+h2 {
+    font-family: Coolfont,Josefinslab,serif ;
+    font-size: 1.5rem ; 
+}
+
+h2 + p {
+font-size: 0.75rem;
+letter-spacing: 0.031rem;
+word-spacing: 0.13rem;
+text-indent: 1.5rem;
+} 
+
+p  {
+    font-size: 0.75rem;
+    letter-spacing: 0.031rem;
+    word-spacing: 0.13rem;
+}
+li {
+    font-size: 0.75rem;
+    letter-spacing: 0.031rem;
+    word-spacing: 0.13rem;
+}
+figcaption {
+    font-size: 0.75rem;
+    margin-bottom: 2rem;
+}
 
 
 /* Link Styling */

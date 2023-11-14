@@ -153,35 +153,73 @@ figcaption {
 
 
 /* Link Styling */
-a {}
+a {outline:none} 
 a :link,
-a :visited {}
-
-
-a :focus,
-a:hover {}
+a :visited {
+color: #33658A;
+} 
+a :focus{none},
+a:hover {none}
 
 
 /* List Styling */
 
-ul  {}
-ol  {}
+ul  {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    list-style-type: square;
+}
+ol  {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    list-style-type: lower-alpha;
+    text-transform: lowercase;
+}
 
-.long-list a:hover{}
+.long-list a:hover{
+    text-transform: uppercase;
+}
 
 /* Navigation Menu */
 
-nav   {}
-nav a {}
+nav   {
+    padding-left: 0rem;
+    margin-top: 0.3rem;
+}
+nav a link{
+    text-decoration: none;
+    display: inline-block;
+    max-width: 100%;
+    line-height: 3;
+    text-align: center;
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+    border: solid;
+    width: 0.063rem;
+    color: #33658A;
+
+}
 
 nav a: focus,
-nav a: :hover {}
+nav a: :hover {
+    color: #FFF;
+    background-color:#33658A;
+}
 
-nav a:active {}
+nav a:active {
+    color: #FFF;
+    background-color: #000;
+}
 
 /* Footer Styles */
 
-footer {}
+footer {
+    text-emphasis-position: center;
+}
 
 
 

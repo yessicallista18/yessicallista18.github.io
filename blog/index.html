@@ -22,22 +22,20 @@
     <body>
 
         <header>
-             <!-- Add a level 1 heading to display three words. Use a span element to highlight the second word. Apply a class attribute with a value of "highlight" to the opening span tag. -->
-           <h1>Tofu Charcoal Unicorns
-            <span>
-                <span class="highlight">"Charcoal"</span>
-            </h1> 
-            </span>
+             <!-- Add a level 1 heading to display three words. Use a span element to highlight the second word. 
+                
+                Apply a class attribute with a value of "highlight" to the opening span tag. -->
+           <h1>Tofu <span class="highlight">"Charcoal"</span> Unicorns </h1>
         </header>   
         
         <!-- Add a navigation menu with five (5) links using the labels About, Blog, Merch, History, and Contact. Use the "#" symbol for your href values. -->
         <nav>
             <div class="navbar">
-                <a href="#"><i class="About"></i> About</a>
-                <a href="#"><i class>"Blog"</i> Blog</a>
-                <a href="#"><i class>"Merch"</i> Merch</a>
-                <a href="#"><i class>"History"</i> History</a>
-                <a href="#"><i class>"Contact"</i> Contact</a>
+                <a href="#">About</a>
+                <a href="#">Blog</a>
+                <a href="#">Merch</a>
+                <a href="#">History</a>
+                <a href="#">Contact</a>
             </div>
         </nav>
         
@@ -48,14 +46,12 @@
             Chic Narwhal Waistcoat
             </h2>
             
-            <!-- Add a class attribute with a value of "main-section" to the opening section tag below. -->
-            <main section="">
-            
-            <section>
+            <!-- Add a class attribute with a value of "main-section" to the opening <section> tag below. -->
+            <section class="main-section">
                 <article>
                     
                     <!-- Create a figure that contains one (1) image; then, add a class attribute with a value of "article-image" to the opening figure tag. -->
-                    <fig>
+                    <fig class="article-image">
                         <img src="images/stag.jpg" alt="article-image">
                     </fig>
                     
@@ -105,26 +101,19 @@
                     
                     <!-- Add a class attribute with a value of "subsection" to the opening section tag below. -->
                     <section class="subsection">
-
-                    </section>
-                    
-                    
                         <!-- Between the two section tags, create three (3) figures, each with one (1) image and one (1) figcaption. -->
-                    <section>
-                        <img src="images/eren-30s.jpg"> <figcaption>Twee,green banh mi la croix.</figcaption>
-                        <img src="images/industrial-city-2.jpg"> <figcaption>Sartorial scenester roof party.</figcaption>
-                        <img src="images/in-nomino.jpg"> <figcaption>Seitan succulents,woke</figcaption>
- 
+                        <figure><img src="images/eren-30s.jpg"> <figcaption>Twee,green banh mi la croix.</figcaption></figure>
+                        <figure><img src="images/industrial-city-2.jpg"> <figcaption>Sartorial scenester roof party.</figcaption></figure>
+                        <figure></figure><img src="images/in-nomino.jpg"> <figcaption>Seitan succulents,woke</figcaption></figure>
                     </section>
                     
                     
                     <!-- Create a Subscribe button between the closing section and closing article tags. -->
-                   <a href="">Subscribe</a>
-                
+                   <button type="button">Subscribe</button>
                 </article>
                 <aside>
                     <!-- Add a level 3 heading, followed by an image and a paragraph. --> 
-                    <h3>Freegan tote bag
+                    <h3>Freegan tote bag </h3>
                         <img src="images/industrial.jpg"> 
                         <p>Photo booth snackwave tousled affogato, fingerstache pug squid pork belly messenger bag la croix enamel pin single-origin coffee chambray bitters. 
                             90's semiotics hexagon offal wolf.
@@ -132,10 +121,10 @@
                              Waistcoat humblebrag chartreuse tumblr. 
                              You probably haven't heard of them viral tbh, selfies gluten-free heirloom fixie farm-to-table lumbersexual next level.
                         </p>
-                    </h3>
+
                     
                     <!-- Add another level 3 heading, followed by an image and a paragraph. -->
-                    <h3>Readymade microdosing trustfund.
+                    <h3>Readymade microdosing trustfund </h3>
                         <img src="images/routine.jpg">
                     <p>
                         Stumptown affogato ramps, poutine lo-fi waistcoat butcher gochujang la croix iPhone shaman echo park green juice sartorial. 
@@ -143,9 +132,9 @@
                         Etsy JOMO raclette, tacos direct trade palo santo copper mug. 
                         Bruh portland hashtag cray.
                     </p>
-                    </h3>
+
                     <!-- You guesed it, add an additional level three heading, followed by an image and a paragraph -->
-                    <h3>
+                    <h3>Cliche Meditation</h3>
                     <img src="images/industrial-city.jpg">
                     <p>
                         Vaporware ennui man bun butcher squid slow-carb forage affogato tonx kombucha fit blog. 
@@ -153,15 +142,13 @@
                         Blue bottle organic ramps jianbing neutral milk hotel truffaut woke blog messenger bag sustainable migas Brooklyn same bruh JOMO.
                         Cray slow-carb bespoke offal chambray 8-bit chartreuse banjo scenester pop-up deep v.
                     </p>
-                    </h3>
                     
-                    <!-- Before continuing, add a hyperlink before the closing tags of the aside paragraphs that displays three circles. Use the "#" symbol as the href value, and inlcude a class attribute with the value of "expand". Note: The code to use for a cirle is:
+                    <!-- Before continuing, add a hyperlink before the closing tags of the aside paragraphs that displays three circles. Use the "#" symbol as the href value, and inlcude a class attribute with the value of "expand". Note: The code to use for a circle is:
 
                         &#x26AB;  
 
                     -->
-                    <a href="https://www.
-                    
+                    <a href="#" class="expand">&#x26AB; &#x26AB;  &#x26AB;</a>
                     
                 </aside>
             </section>
@@ -170,9 +157,11 @@
             
             
             <!-- Add a paragraph with the copyright and a link to an email address. --->
-            
+            <p>	&#169; 2020 <a href="mailto:email@example.com">email@example.com</a></p>
             
             <!-- Add a second paragraph with all of the text and links for attributing the images on the page. Make sure to use the "ideal" attribution from Creative Commons. -->
+            <p>"Stag", "Industrial", "Routine", "Eren 30","In Nomino", "Industrial City, and "Industrial City II" <span class="bold">by</span> Sasha Aim <span class="bold">licensed under</span> CC BY-NC-SA 2.0
+            </p>
             
             
         </footer>
